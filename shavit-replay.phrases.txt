@@ -1,0 +1,61 @@
+"Phrases"
+{
+	// ---------- Menus ---------- //
+	"DeleteReplayAdminMenu"
+	{
+		"en"		"Удалить повтор"
+	}
+	"DeleteReplayMenuTitle"
+	{
+		"en"		"Удаление повтора:"
+	}
+	"MenuResponseNo"
+	{
+		"en"		"НЕТ!"
+	}
+	"MenuResponseYes"
+	{
+		"en"		"Да, я понимаю, что это действие нельзя отменить!"
+	}
+	"ReplayDeletionConfirmation"
+	{
+		"#format"	"{1:s}"
+		"en"		"Подтвердите удаление {1} повтора?"
+	}
+	"ReplaysUnavailable"
+	{
+		"en"		"Повторы не доступны."
+	}
+	// ---------- Replay Deletion ---------- //
+	"ReplayDeleted"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Удалить повтор для {1}{2}{3}."
+	}
+	"ReplayDeleteFailure"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Не удалось удалить повтор для {1}{2}{3}."
+	}
+	// ---------- Central Replay Menu ---------- //
+	"CentralReplayTitle"
+	{
+		"en"		"Выберите стиль воспроизведения для воспроизведения:"
+	}
+	"CentralReplayPlaying"
+	{
+		"en"		"Повтор БОТ занят, попробуйте еще раз, когда он не занят"
+	}
+	"CentralReplayStop"
+	{
+		"en"		"Остановить текущий повтор."
+	}
+	"CentralReplayStopped"
+	{
+		"en"		"Принудительно остановить повтор."
+	}
+	"CentralReplayTrack"
+	{
+		"en"		"Выберите трек для воспроизведения:"
+	}
+}

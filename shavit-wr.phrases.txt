@@ -1,0 +1,200 @@
+"Phrases"
+{
+	// ---------- Commands ---------- //
+	"DeletionAborted"
+	{
+		"en"		"Удаление прервано."
+	}
+	"DeletedRecord"
+	{
+		"en"		"Рекорд удален."
+	}
+	"DeletedRecordsMap"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Удалены все рекорды для {1}{2}{3}."
+	}
+	"DeletedRecordsStyle"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Удалены все рекорды для {1}{2}{3}."
+	}
+	// ---------- Client Menus ---------- //
+	"ListClientRecords"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Рекорды для {1}:\n({2})"
+	}
+	// ---------- Completion Messages ---------- //
+	"FirstCompletion"
+	{
+		"#format"	"{1:s},{2:N},{3:s},{4:s},{5:s},{6:s},{7:s},{8:s},{9:s},{10:s},{11:d},{12:s},{13:d},{14:d},{15:s},{16:s}"
+		"en"		"{1}{2}{3} закончил  в ({4}{5}{6}) {7}{8}{9} ({10}#{11}{12}) с {13} прыжками, {14} {15}{16} стрейфами."
+	}
+	"NotFirstCompletion"
+	{
+		"#format"	"{1:s},{2:N},{3:s},{4:s},{5:s},{6:s},{7:s},{8:s},{9:s},{10:s},{11:d},{12:s},{13:d},{14:d},{15:s},{16:s},{17:s},{18:s}"
+		"en"		"{1}{2}{3} закончил  в ({4}{5}{6}) {7}{8}{9} ({10}#{11}{12}) с {13} прыжками, {14} стрейфами{15}{16}. {17}(-{18})"
+	}
+	"WorseTime"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s},{6:s},{7:d},{8:d},{9:s},{10:s},{11:s}"
+		"en"		"Вы закончили({1}{2}{3}) в ({4}{5}{6}) с {7} прыжками, {8} стрейфами{9}{10}. (+{11})"
+	}
+	"UnrankedTime"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s},{6:s},{7:d},{8:d},{9:s},{10:s}"
+		"en"		"Вы закончили ({1}{2}{3}) в ({4}{5}{6}) с {7} прыжками, {8} стрейфами{9}{10}."
+	}
+	// ---------- Deletion Menus ---------- //
+	"DeleteAllRecords"
+	{
+		"en"		"Удалить все рекорды карта"
+	}
+	"DeleteAllRecordsMenuTitle"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Удалить все рекорды для '{1}'? (Трэк: {2} | Стиль: {3})"
+	}
+	"DeleteConfirm"
+	{
+		"en"		"Вы уверены?"
+	}
+	"DeleteMenuTitle"
+	{
+		"en"		"Удалить рекорды из:"
+	}
+	"DeleteSingleRecord"
+	{
+		"en"		"Удалить один рекорд"
+	}
+	"MenuResponseNo"
+	{
+		"en"		"НЕТ!"
+	}
+	"MenuResponseYesSingle"
+	{
+		"en"		"ДА!!! УДАЛИТЬ РЕКОРД!!!"
+	}
+	"MenuResponseYes"
+	{
+		"en"		"ДА!!! УДАЛИТЬ ВСЕ РЕКОРДЫ!!! ЭТО ДЕЙСТВИЕ НЕОБРАТИМО!!!"
+	}
+	"DeleteStyleRecordsRecordsMenuTitle"
+	{
+		"#format"	"{1:s}"
+		"en"		"Choose a style to delete all the records for '{1}':"
+	}
+	"DeleteConfirmStyle"
+	{
+		"#format"	"{1:s}"
+		"en"		"Are you sure you want to delete ALL THE RECORDS for {1}?"
+	}
+	"MenuResponseYesStyle"
+	{
+		"#format"	"{1:s}"
+		"en"		"ДА!!! УДАЛИТЬ РЕКОРД ДЛЯ {1}!!! ЭТО ДЕЙСТВИЕ НЕОБРАТИМО!!!"
+	}
+	"DeleteTrackSingle"
+	{
+		"en"		"Выберите трек, из которого нужно удалить отдельный рекорд:"
+	}
+	"DeleteTrackAll"
+	{
+		"en"		"Выберите трек, из которого нужно удалить все рекорды:"
+	}
+	"DeleteTrackAllStyle"
+	{
+		"#format"	"{1:s}"
+		"en"		"Выберите стиль, из которого нужно удалить все рекорды: ({1}):"
+	}
+	// ---------- Errors ---------- //
+	"DatabaseError"
+	{
+		"en"		"Ошибка базы данных."
+	}
+	"Error"
+	{
+		"en"		"ОШИБКА"
+	}
+	"NoStyles"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1}ФАТАЛЬНАЯ ОШИБКА: {2}Нет доступных стилей. Свяжитесь с создателями сервера!"
+	}
+	// ---------- WR Menu ---------- //
+	"RecentRecords"
+	{
+		"#format"	"{1:d}"
+		"en"		"Недавний {1} рекорд(ы)"
+	}
+	"WRDate"
+	{
+		"en"		"Дата"
+	}
+	"WRJump"
+	{
+		"en"		"прыжок"
+	}
+	"WRJumps"
+	{
+		"en"		"Прыжки"
+	}
+	"WRMap"
+	{
+		"#format"	"{1:s}"
+		"en"		"Рекорды для {1}"
+	}
+	"WRMapNoRecords"
+	{
+		"en"		"Рекордов не найдено."
+	}
+	"WRMenuTitle"
+	{
+		"en"		"Выберите стиль:"
+	}
+	"WRPoints"
+	{
+		"en"		"поинты"
+	}
+	"WRPlayerStats"
+	{
+		"en"		"Статистика игрока"
+	}
+	"WRDeleteRecord"
+	{
+		"en"		"Удалить рекорд"
+	}
+	"WRPointsCap"
+	{
+		"en"		"Поинты"
+	}
+	"WRRecord"
+	{
+		"en"		"рекорды"
+	}
+	"WRRecordFor"
+	{
+		"en"		"Рекорды для"
+	}
+	"WRStrafes"
+	{
+		"en"		"Стрейфы"
+	}
+	"WRCompletions"
+	{
+		"en"		"Прохождений"
+	}
+	"WRStyle"
+	{
+		"en"		"Стиль"
+	}
+	"WRStyleNothing"
+	{
+		"en"		"Ничего."
+	}
+	"WRTime"
+	{
+		"en"		"Время"
+	}
+}

@@ -1,0 +1,291 @@
+"Phrases"
+{
+	// ---------- Admin Menu ---------- //
+	"AddMapZone"
+	{
+		"en"		"Добавить зону карты"
+	}
+	"DeleteAllMapZone"
+	{
+		"en"		"Удалить все зоны карты"
+	}
+	"DeleteMapZone"
+	{
+		"en"		"Удалить зону карты"
+	}
+	// ---------- Commands ---------- //
+	"StageCommandAlive"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Вы должны {1}быть живым{2} чтобы использовать эту команду."
+	}
+	"ModifierCommandNoArgs"
+	{
+		"en"		"Использование: sm_modifier <десятичное число>"
+	}
+	"ModifierTooLow"
+	{
+		"en"		"Модификатор должен быть выше, чем 0."
+	}
+	"ModifierSet"
+	{
+		"en"		"Модификатор поставлен на"
+	}
+	"ZonesCommand"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Вы {1}не можете{2} поставить зону карты, если вы мертвы."
+	}
+	"ZoneCustomSpawnMenuTitle"
+	{
+		"en"		"Добавить кастомный спавн для трэка:"
+	}
+	"ZoneCustomSpawnMenuDeleteTitle"
+	{
+		"en"		"Удалить кастомный спавн для трэка:"
+	}
+	"ZoneCustomSpawnExists"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Кастомный спавн для трэка {1}{2}{3} уже существует. Пожалуйста, удалите его перед размещением нового."
+	}
+	"ZoneCustomSpawnMissing"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Кастомный спавн для трэка {1}{2}{3} отсутствует."
+	}
+	"ZoneCustomSpawnDelete"
+	{
+		"en"		"Удаление кастомного спавна прошла успешно.."
+	}
+	"ZoneDead"
+	{
+		"en"		"Вы не можете ставить зоны если мертвы."
+	}
+	// ---------- Panel Text ---------- //
+	"AbortZoneCreation"
+	{
+		"en"		"Отменить создание зоны"
+	}
+	"GridSnapPlus"
+	{
+		"#format"	"{1:d}"
+		"en"		"Привязка к сетке + (x{1})"
+	}
+	"GridSnapMinus"
+	{
+		"en"		"Привязка к сетке -"
+	}
+	"WallSnap"
+	{
+		"#format"	"{1:T}"
+		"en"		"Привязать к стене: {1}"
+	}
+	"CursorZone"
+	{
+		"#format"	"{1:T}"
+		"en"		"Использовать позицию курсора: {1}"
+	}
+	// ---------- Zone Menu ---------- //
+	"ZoneAdjustCancel"
+	{
+		"en"		"Отмена"
+	}
+	"ZoneAdjustDone"
+	{
+		"en"		"Готово!"
+	}
+	"ZoneAdjustPosition"
+	{
+		"en"		"Отрегулируйте положение зоны.\nИспользовать 'sm_modifier <number>' установить новый модификатор."
+	}
+	"ZoneAxis"
+	{
+		"en"		"ось"
+	}
+	"ZoneCustomSpawnSuccess"
+	{
+		"en"		"Кастомный спавн успешно установлен."
+	}
+	"ZoneDecreased"
+	{
+		"en"		"уменьшился"
+	}
+	"ZoneEditConfirm"
+	{
+		"en"		"Подтвердить?"
+	}
+	"ZoneDeleteSuccessful"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Удален {1}{2}{3} успешно."
+	}
+	"ZoneDeleteAllSuccessful"
+	{
+		"en"		"Все зоны карты удалены успешно."
+	}
+	"ZoneFirst"
+	{
+		"en"		"FIRST"
+	}
+	"ZoneIncreased"
+	{
+		"en"		"повысился"
+	}
+	"ZoneMenuDeleteTitle"
+	{
+		"en"		"Удалить зоны:\nPressing a zone will delete it. This action CANNOT BE REVERTED!"
+	}
+	"ZoneMenuDeleteALLTitle"
+	{
+		"en"		"Удалить все зоны карты?\nНажимая 'Да', вы удалите все существующие зоны для этой карты.\nЭто действие НЕВОЗМОЖНО ОТМЕНИТЬ!"
+	}
+	"ZoneMenuNo"
+	{
+		"en"		"НЕТ!"
+	}
+	"ZonesMenuNoneFound"
+	{
+		"en"		"Зон не найдено."
+	}
+	"ZoneMenuStage"
+	{
+		"en"		"Выберите этап:"
+	}
+	"ZoneMenuTrack"
+	{
+		"en"		"Выберите трэк:"
+	}
+	"ZoneMenuTitle"
+	{
+		"#format"	"{1:s}"
+		"en"		"Выберите тип зоны: ({1})"
+	}
+	"ZoneMenuYes"
+	{
+		"en"		"ДА!!! УДАЛИТЬ ВСЕ ЗОНЫ КАРТ	!!!"
+	}
+	"ZonePlaceText"
+	{
+		"#format"	"{1:s}"
+		"en"		"Нажмите USE (обычно 'E') чтобы установить {1} угол в вашем текущем положении."
+	}
+	"ZonePlaceTextTF2"
+	{
+		"#format"	"{1:s}"
+		"en"		"Нажмите ATTACK2 (обычно 'ПКМ') чтобы установить {1} угол в вашем текущем положении."
+	}
+	"ZonePoint"
+	{
+		"#format"	"{1:d},{2:c}"
+		"en"		"Поинт {1} | {2} ось."
+	}
+	"ZoneSecond"
+	{
+		"en"		"ВТОРОЙ"
+	}
+	"ZoneSetAdjust"
+	{
+		"en"		"Отрегулируйте положение"
+	}
+	"ZoneForceRender"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{1}] Чертеж силовой зоны"
+	}
+	"ZoneSetAiraccelerate"
+	{
+		"#format"	"{1:d}"
+		"en"		"Airaccelerate: {1}"
+	}
+	"ZoneSetSpeedLimit"
+	{
+		"#format"	"{1:d}"
+		"en"		"Кастомный лимит скорости: {1}"
+	}
+	"ZoneSetSpeedLimitUnlimited"
+	{
+		"#format"	"{1:d}"
+		"en"		"Кастомный лимит скорости: {1} (No Limit)"
+	}
+	"ZoneSetStage"
+	{
+		"#format"	"{1:d}"
+		"en"		"Этап: {1}"
+	}
+	"ZoneEnterDataChat"
+	{
+		"en"		"Введите желаемые данные в чат."
+	}
+	"ZoneSetNo"
+	{
+		"en"		"Нет"
+	}
+	"ZoneSetTP"
+	{
+		"en"		"Да (сначала выберите пункт назначения телепорта)"
+	}
+	"ZoneSetTPZone"
+	{
+		"en"		"Обновить пункт назначения телепорта"
+	}
+	"ZoneSetYes"
+	{
+		"en"		"Да"
+	}
+	"ZoneSizeIncrease"
+	{
+		"#format"	"{1:s},{2:c},{3:s},{4:d},{5:s},{6:.01f},{7:s}"
+		"en"		"{1}{2} axis{3} (point {4}) увеличена на {5}{6}{7}."
+	}
+	"ZoneSizeDecrease"
+	{
+		"#format"	"{1:s},{2:c},{3:s},{4:d},{5:s},{6:.01f},{7:s}"
+		"en"		"{1}{2} axis{3} (point {4}) уменьшина на {5}{6}{7}."
+	}
+	"ZoneTeleportUpdated"
+	{
+		"en"		"Пункт назначения телепорта обновлен."
+	}
+	"ZoneTeleportInsideZone"
+	{
+		"en"		"Вы не можете поместить пункт назначения внутри зоны."
+	}
+	"ZoneEditTrack"
+	{
+		"#format"	"{1:s}"
+		"en"		"Трэк зоны: {1}"
+	}
+	"ZoneEdit"
+	{
+		"en"		"Измените зону карты:"
+	}
+	"ZoneEditTitle"
+	{
+		"en"		"Выберите зону для изменения:"
+	}
+	"ZoneInside"
+	{
+		"en"		"(Внутри!)"
+	}
+	"ZoneEditRefresh"
+	{
+		"en"		"Refresh menu"
+	}
+	// ---------- Messages ---------- //
+	"ZoneSlayEnter"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"{1}Вы были убиты за то, что вошли в {2}запретную зону{3}."
+	}
+	"ZoneStopEnter"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"{1}Ваш таймер остановлен за то, что вошли в {2}запретную зону{3}."
+	}
+	"ZoneStageEnter"
+	{
+		"#format"	"{1:s},{2:s},{3:d},{4:s},{5:s},{6:s}{7:s}"
+		"en"		"{1}Вы достигли этапа {2}{3}{4} со временем {5}{6}{7}."
+	}
+}

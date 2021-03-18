@@ -1,0 +1,197 @@
+"Phrases"
+{
+	// ---------- HUD Components ---------- //
+	// DO NOT MAKE NAMES LONGER THAN DISPLAYED HERE //
+	"HudStartZone"
+	{
+		"en"		"Зона старта"
+	}
+	"HudZoneTier"
+	{
+		"#format"	"{1:d}"
+		"en"		"Этап {1}"
+	}
+	"HudInStartZone"
+	{
+		"#format"	"{1:d}"
+		"en"		"В зоне старта\n\n{1}"
+	}
+	"HudInStartZoneCSGO"
+	{
+		"#format"	"{1:d}"
+		"en"		"В зоне старта\n\n\t\t\t{1}"
+	}
+	"HudEndZone"
+	{
+		"en"		"Зона конца"
+	}
+	"HudInEndZone"
+	{
+		"#format"	"{1:d}"
+		"en"		"В зоне конца\n\n{1}"
+	}
+	"HudInEndZoneCSGO"
+	{
+		"#format"	"{1:d}"
+		"en"		"В зоне конца\n\n\t\t\t{1}"
+	}
+	"HudPaused"
+	{
+		"en"		"[На паузе]"
+	}
+	"HudTimeText"
+	{
+		"en"		"Время"
+	}
+	"HudBestText"
+	{
+		"en"		"Твой лучший рекорд"
+	}
+	"HudJumpsText"
+	{
+		"en"		"Прыжки"
+	}
+	"HudStyleText"
+	{
+		"en"		"Стиль"
+	}
+	"HudSpeedText"
+	{
+		"en"		"Скорость"
+	}
+	"HudStrafeText"
+	{
+		"en"		"Стрейфы"
+	}
+	"HudTimeLeft"
+	{
+		"en"		"Времени осталось"
+	}
+	"HudSync"
+	{
+		"en"		"Эффективность"
+	}
+	"HudPerfs"
+	{
+		"en"		"Идеальные прыжкм"
+	}
+	"HudPracticeMode"
+	{
+		"en"		"[Практик мод]"
+	}
+	"HudNoSpeedLimit"
+	{
+		"en"		"(Без лимита скорости)"
+	}
+	"HudCustomSpeedLimit"
+	{
+		"#format"	"{1:d}"
+		"en"		"(Лимит скорости: {1})"
+	}
+	// ---------- Menus ---------- //
+	"HUDMenuTitle"
+	{
+		"en"		"HUD настройки:"
+	}
+	"HudMaster"
+	{
+		"en"		"Матер"
+	}
+	"HudCenter"
+	{
+		"en"		"Центр текста"
+	}
+	"HudZoneHud"
+	{
+		"en"		"Зона HUD"
+	}
+	"HudObserve"
+	{
+		"en"		"Наблюдение HUD"
+	}
+	"HudSpectators"
+	{
+		"en"		"Список наблюдателей"
+	}
+	"HudKeyOverlay"
+	{
+		"en"		"Отображение кнопок"
+	}
+	"HudHideWeapon"
+	{
+		"en"		"Скрыть оружие"
+	}
+	"HudTopLeft"
+	{
+		"en"		"Рекорды HUD (WR/PB)"
+	}
+	"Hud2dVel"
+	{
+		"en"		"Использовать 2D Velocity"
+	}
+	"HudNoRecordSounds"
+	{
+		"en"		"Без звука рекордов"
+	}
+	"HudPracticeModeAlert"
+	{
+		"en"		"Без предупрждения о практике"
+	}
+	"HudRankText"
+	{
+		"en"		"Ожидаемый ранг"
+	}
+	"HudTrackText"
+	{
+		"en"		"Трек таймера"
+	}
+	"HudSplitPbText"
+	{
+		"en"		"Разделить PB"
+	}
+	"HudMapTierText"
+	{
+		"en"		"Этап карты"
+	}
+	"HudTimeDifference"
+	{
+		"en"		"Разница во времени"
+	}
+	"HudTopLeftRankText"
+	{
+		"en"		"Верхний левый ранг"
+	}
+	// ---------- Record Bots ---------- //
+	"ReplayText"
+	{
+		"en"		"Повтор"
+	}
+	"NoReplayData"
+	{
+		"en"		"Данные повтора не загружены\nНажмите USE или выберите #1 чтобы воспроизвести"
+	}
+	"NoReplayDataTF2"
+	{
+		"en"		"Данные повтора не загружены\nНажмите USE или выберите #1 чтобы воспроизвести"
+	}
+	// ---------- Panels ---------- //
+	"SpectatorPersonal"
+	{
+		"en"		"Наблюдатели"
+	}
+	"SpectatorWatching"
+	{
+		"en"		"Остальные наблюдатели"
+	}
+	// ---------- Commands ---------- //
+	"HudEnabledComponent"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}"
+		"en"		"{1}{2} {3}HUD настройки {4}включены{5}."
+	}
+	"HudDisabledComponent"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}"
+		"en"		"{1}{2} {3}HUD настройки {4}выключены{5}."
+	}
+}

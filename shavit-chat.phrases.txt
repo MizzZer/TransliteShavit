@@ -1,0 +1,100 @@
+"Phrases"
+{
+	// ---------- Commands ---------- //
+	"ChatUpdated"
+	{
+		"en"		"Настройки обновлены."
+	}
+	"ChatCurrent"
+	{
+		"#format"	"{1:s}"
+		"en"		"Текущая настройка: {1}"
+	}
+	"NameOff"
+	{
+		"en"		"Пользовательское имя чата теперь отключено."
+	}
+	"MessageOff"
+	{
+		"en"		"Пользовательский цвет текста чата теперь отключен."
+	}
+	"CheckConsole"
+	{
+		"en"		"Проверьте свою консоль."
+	}
+	"CCHelp_Intro"
+	{
+		"en"		"- У вас есть доступ к пользовательскому чату.\nИнформация об использовании:"
+	}
+	"CCHelp_Generic"
+	{
+		"en"		"- !ccname может быть использован для изменения вашего пользовательского имени чата. Воспользуйся \"!ccname off\" чтобы выключить его.\n- !ccmsg может быть использован для изменения вашего пользовательского префикса сообщения/цвета. Воспользуйся\"!ccmsg off\" чтобы выключить его.\nСуществуют пользовательские переменные, такие как:"
+	}
+	"CCHelp_GenericVariables"
+	{
+		"en"		"- {name} - твое игровое имя.\n- {clan} - твой клан-тег\n- {rand} - случайный цвет.\n- {team} - цвет вашей команды.\n- {green} - зеленый цвет."
+	}
+	"CCHelp_CSS_1"
+	{
+		"en"		"- To use a custom color, write ^RRGGBB (HEX/HTML colors). For example, ^FFFFFF is white and ^000000 is black."
+	}
+	"CCHelp_CSS_2"
+	{
+		"en"		"- You can also use a set alpha (opacity in HEX, where FF is 255). &RRGGBBAA. For example, &FFFFFF7F is 127 alpha, so all text after the color will have 50% opacity."
+	}
+	"CCHelp_CSGO_1"
+	{
+		"en"		"- Также доступны следующие цвета: {blue}, {bluegrey}, {darkblue}, {darkred}, {gold}, {grey}, {grey2}, {lightgreen}, {lightred}, {lime}, {orchid}, {yellow} и {palered}."
+	}
+	// ---------- Menu ---------- //
+	"SelectChatRank"
+	{
+		"en"		"Выберите ранг чата:\n"
+	}
+	"AutoAssign"
+	{
+		"en"		"Автоматическое назначение\nАвтоматически назначайте, используя свой ранг."
+	}
+	"CustomChat"
+	{
+		"en"		"Пользовательские\nИспользуйте пользовательские настройки чата. Более подробную информацию см. в разделе !cchelp "
+	}
+	"ChatRanksMenu"
+	{
+		"en"		"Доступные ранги чата:\nВыберите для предварительного просмотра.\n"
+	}
+	"ChatRanksMenu_Unranked"
+	{
+		"en"		"Без ранга"
+	}
+	"ChatRanksMenu_Points"
+	{
+		"#format"	"{1:d}"
+		"en"		"Иметь {1} очков"
+	}
+	"ChatRanksMenu_Points_Ranged"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"Есть между {1} и {2} очков"
+	}
+	"ChatRanksMenu_Flat"
+	{
+		"#format"	"{1:d}"
+		"en"		"Рейтинг #{1} или лучше"
+	}
+	"ChatRanksMenu_Flat_Ranged"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"Рейтинг между #{1} и #{2}"
+	}
+	"ChatRanksMenu_Percentage"
+	{
+		"#format"	"{1:.1f},{2:c}"
+		"en"		"Топ {1}{2}"
+	}
+	"ChatRanksMenu_Percentage_Ranged"
+	{
+		"#format"	"{1:.1f},{2:c},{3:.1f},{4:c}"
+		"en"		"Между top {1}{2} and {3}{4}"
+	}
+}

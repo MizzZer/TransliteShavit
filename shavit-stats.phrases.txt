@@ -1,0 +1,121 @@
+"Phrases"
+{
+	// ---------- Errors ---------- //
+	"StatsMenuFailure"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1}ОШИБКА: {2}Не удалось открыть меню статистики."
+	}
+	// ---------- Map Completions ---------- //
+	"SelectTrack"
+	{
+		"en"		"Выберите трек таймера"
+	}
+	"MapsDone"
+	{
+		"en"		"Карты пройдены"
+	}
+	"MapsDoneFor"
+	{
+		"#format"	"{1:s},{2:s},{3:d}"
+		"en"		"[{1}] Карты пройдены для {2}: ({3})"
+	}
+	"MapsDoneOnStyle"
+	{
+		"#format"	"{1:s}"
+		"en"		"Карты пройдены {1} на стиле:"
+	}
+	"MapsLeft"
+	{
+		"en"		"Карт осталось"
+	}
+	"MapsLeftFor"
+	{
+		"#format"	"{1:s},{2:s},{3:d}"
+		"en"		"[{1}] Карт осталось для {2}: ({3})"
+	}
+	"MapsLeftOnStyle"
+	{
+		"#format"	"{1:s}"
+		"en"		"Карты осталось {1} на стиле:"
+	}
+	"MapsMenu"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{1}] Статистика:"
+	}
+	"MapsPoints"
+	{
+		"en"		"поинты"
+	}
+	"MapsJumps"
+	{
+		"en"		"прыжки"
+	}
+	"Nope"
+	{
+		"en"		"неа"
+	}
+	"NoResults"
+	{
+		"en"		"Нет результатов."
+	}
+	// ---------- Player Profiles ---------- //
+	"Country"
+	{
+		"en"		"Страна"
+	}
+	"LastLogin"
+	{
+		"en"		"Последний заход"
+	}
+	"MapCompletions"
+	{
+		"en"		"Карт пройдено"
+	}
+	"NoRecords"
+	{
+		"en"		"Ничего."
+	}
+	"Rank"
+	{
+		"en"		"Ранг"
+	}
+	"Points"
+	{
+		"en"		"Поинты"
+	}
+	"PointsUnranked"
+	{
+		"en"		"Без ранга"
+	}
+	"Profile"
+	{
+		"en"		"профиль"
+	}
+	"WorldRecords"
+	{
+		"en"		"мировые рекорды"
+	}
+	// ---------- Record Data ---------- //
+	"Date"
+	{
+		"en"		"Дата"
+	}
+	"Jumps"
+	{
+		"en"		"Прыжки"
+	}
+	"Strafes"
+	{
+		"en"		"Стрейфы"
+	}
+	"Style"
+	{
+		"en"		"Стиль"
+	}
+	"Time"
+	{
+		"en"		"Время"
+	}
+}
